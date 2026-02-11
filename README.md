@@ -13,7 +13,7 @@
 ### 2. 플러그인 설치
 
 ```bash
-/plugin install qa-medi-plugin@qa-medi
+/plugin install qa-medi-plugin@qa-medi-plugin
 ```
 
 ### 프로젝트에 자동 설정 (선택)
@@ -23,7 +23,7 @@
 ```json
 {
   "extraKnownMarketplaces": {
-    "qa-medi": {
+    "qa-medi-plugin": {
       "source": {
         "source": "github",
         "repo": "k984530/qa-medi-plugin"
@@ -31,7 +31,7 @@
     }
   },
   "enabledPlugins": {
-    "qa-medi-plugin@qa-medi": true
+    "qa-medi-plugin@qa-medi-plugin": true
   }
 }
 ```

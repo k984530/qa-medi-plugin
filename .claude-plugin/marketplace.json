@@ -1,10 +1,10 @@
 {
-  "name": "qa-medi",
+  "name": "qa-medi-plugin",
   "owner": {
     "name": "k984530"
   },
   "metadata": {
-    "description": "사내 QA 자동화 플러그인 마켓플레이스"
+    "description": "사내 QA 자동화 플러그인"
   },
   "plugins": [
     {
