@@ -4,16 +4,36 @@
 
 ## 설치
 
-Claude Code 마켓플레이스에서 설치:
+### 1. 마켓플레이스 등록
 
 ```bash
-claude plugin install qa-medi-plugin
+/plugin marketplace add k984530/qa-medi-plugin
 ```
 
-또는 GitHub URL로 직접 설치:
+### 2. 플러그인 설치
 
 ```bash
-claude plugin install github:k984530/qa-medi-plugin
+/plugin install qa-medi-plugin@qa-medi
+```
+
+### 프로젝트에 자동 설정 (선택)
+
+`.claude/settings.json`에 추가하면 팀원이 프로젝트 폴더를 trust할 때 자동으로 마켓플레이스가 등록됩니다:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "qa-medi": {
+      "source": {
+        "source": "github",
+        "repo": "k984530/qa-medi-plugin"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "qa-medi-plugin@qa-medi": true
+  }
+}
 ```
 
 ## 구성 요소

@@ -1,0 +1,17 @@
+{
+  "name": "qa-medi",
+  "owner": {
+    "name": "k984530"
+  },
+  "metadata": {
+    "description": "사내 QA 자동화 플러그인 마켓플레이스"
+  },
+  "plugins": [
+    {
+      "name": "qa-medi-plugin",
+      "source": ".",
+      "description": "사내 QA 자동화 Claude Code 플러그인",
+      "version": "0.1.0"
+    }
+  ]
+}

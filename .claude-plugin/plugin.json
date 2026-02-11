@@ -2,15 +2,8 @@
   "name": "qa-medi-plugin",
   "version": "0.1.0",
   "description": "QA Medi - 사내 QA 자동화 Claude Code 플러그인",
-  "author": "",
-  "license": "MIT",
-  "features": {
-    "agents": ["agents/qa-agent.md"],
-    "commands": ["commands/qa.md"],
-    "skills": ["skills/qa-skill/SKILL.md"],
-    "hooks": ["hooks/hooks.json"],
-    "mcp": {
-      "server": "mcp/server.py"
-    }
-  }
+  "author": {
+    "name": "k984530"
+  },
+  "license": "MIT"
 }
