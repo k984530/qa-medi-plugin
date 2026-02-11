@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "event": "on_tool_call",
+      "pattern": "Edit|Write",
+      "command": "echo 'QA hook: file modification detected'"
+    }
+  ]
+}

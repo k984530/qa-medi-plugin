@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "qa-medi": {
+      "command": "python",
+      "args": ["mcp/server.py"],
+      "env": {}
+    }
+  }
+}
