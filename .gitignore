@@ -45,6 +45,9 @@ screenshots/
 # Tests output
 tests/results/
 
+# Generated HTML docs (로컬 공유용, MD 원본만 관리)
+docs/*.html
+
 # IDE
 .vscode/
 .idea/
