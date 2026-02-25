@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# MCP 설정 (API 토큰 포함 가능)
+.mcp.json
+
+# Claude Code 개인 설정/메모리 (세션 데이터)
+.claude/settings.local.json
+.claude/memory/
+
+# Data outputs (에이전트 산출물은 git 제외)
+data/scenarios/**/*.md
+data/scenarios/**/*.json
+data/tc/**/*.json
+data/reviews/**/*.json
+data/assessments/**/*.json
+data/fail_analysis/**/*.json
+data/bugs/**/*.json
+data/rules/**/*.json
+data/test_results/
+data/pipeline/
+!data/**/.gitkeep
+
+# Screenshots (Playwright)
+screenshots/
+
+# Tests output
+tests/results/
+
+# IDE
+.vscode/
+.idea/
